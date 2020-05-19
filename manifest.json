@@ -1,0 +1,19 @@
+{
+  "dir" : "ltr",
+  "lang" : "tr-TR",
+  "name" : "League Maker",
+  "scope" : "/league123/?",
+  "display" : "browser",
+  "start_url" : "https://ajans123.github.io/league123/",
+  "short_name" : "League Maker",
+  "theme_color" : "transparent",
+  "description" : "League Maker",
+  "orientation" : "any",
+  "background_color" : "transparent",
+  "related_applications" : [],
+  "prefer_related_applications" : false,
+  "icons" : [],
+  "url" : "https://ajans123.github.io/league123/?#/",
+  "screenshots" : [],
+  "generated" : "true"
+}
