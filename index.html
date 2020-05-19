@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel='manifest' href='manifest.json'>
-    <script>
-        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-        const el = document.createElement('pwa-update');
-        document.body.appendChild(el);
+    <script type="module">
+        // This is the "Offline copy of pages" service worker
+
+        // Add this below content to your HTML page inside a tag, or add the js file to your page at the very top to register service worker
+
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+
     </script>
     <script src="axios.min.js"></script>
     <script src="vue.min.js"></script>
