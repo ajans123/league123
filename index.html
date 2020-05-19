@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel='manifest' href='manifest.json'>
+    <script>
+        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+        const el = document.createElement('pwa-update');
+        document.body.appendChild(el);
+    </script>
     <script src="axios.min.js"></script>
     <script src="vue.min.js"></script>
     <script src="vue-router.min.js"></script>
@@ -111,10 +116,5 @@
     <div class="lds-ring" v-show="!load"><div></div><div></div><div></div><div></div></div>
 </div>
 <script src="script.min.js"></script>
-<script>
-    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-    const el = document.createElement('pwa-update');
-    document.body.appendChild(el);
-</script>
 </body>
 </html>
